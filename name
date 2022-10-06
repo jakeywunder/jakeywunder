@@ -1,0 +1,7 @@
+Name = input("What is your name? ".format(Name))
+Age = int(input("What is your age? ".format(Age)))
+
+if Age >= 18 >= 30:
+    print("Welcome to your holiday")
+else:
+    print("Sorry, {}, you're not the right age".format(Name))
