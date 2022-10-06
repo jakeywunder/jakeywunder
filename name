@@ -1,7 +1,19 @@
-Name = input("What is your name? ".format(Name))
-Age = int(input("What is your age? ".format(Age)))
+#first attempt:
+#Name = input("What is your name? ".format(Name))
+#Age = int(input("What is your age? ".format(Age)))
+#
+#if Age >= 18 >= 30:
+#    print("Welcome to your holiday")
+#else:
+#    print("Sorry, {}, you're not the right age".format(Name))
+#
+#
+#not stupid attempt:
 
-if Age >= 18 >= 30:
+Name = input("What is your name? ")
+Age = int(input("What is your age? "))
+
+if 18 <= Age <= 30:
     print("Welcome to your holiday")
 else:
     print("Sorry, {}, you're not the right age".format(Name))
