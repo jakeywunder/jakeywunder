@@ -1,0 +1,19 @@
+thisList = ['apples', 'keyboards', 'summer time sadness', 'winter time happiness', 'jumping with joy', 'despite',
+            'pulchritudinous', 'epic games', 'saltiness', 'interdimensional warfare', 'cameras', 'mirroring',
+            'doctor who', 'wide-screen', 'r&b sucks', 'fudge-a-rama'
+            ]
+
+for item in thisList:
+    for index in reversed(range(len(thisList))):
+        if item[index] == "r&b sucks":
+            del item[index]
+
+    print(thisList)
+
+
+error:
+C:blahblahblah
+Traceback (most recent call last):
+  File "blahblahblah", line 9, in <module>
+    if thingy[index] == "r&b sucks":
+IndexError: string index out of range
